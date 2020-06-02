@@ -16,6 +16,5 @@ function findAdjacent(rootNode, vertices, edges){
       }
     }
   }
-  console.log(vert)
   return vert
 }
