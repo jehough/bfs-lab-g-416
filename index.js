@@ -17,7 +17,7 @@ function findAdjacent(rootNode, vertices, edges){
   return vert
 }
 
-markDistanceAndPredecessor(node, adjacent){
+function markDistanceAndPredecessor(node, adjacent){
   for(let connection of adjacent){
     connection.predecessor = node
     if (connection.distance === null){
