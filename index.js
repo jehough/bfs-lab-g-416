@@ -3,6 +3,7 @@ function bfs(rootNode, vertices, edges){
 }
 
 function findAdjacent(rootNode, vertices, edges){
+  let vert = []
   for (let edge of edges){
     if (edge.includes(rootNode)){
       for (let vertex of edge){
