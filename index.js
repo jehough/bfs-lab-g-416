@@ -5,6 +5,7 @@ function bfs(rootNode, vertices, edges){
     let adjvert = findAdjacent(firstNode, vertices, edges)
     markDistanceAndPredecessor(firstNode, adjvert)
     for (let adj of adjvert){
+      
     }
   }
 }
