@@ -10,6 +10,7 @@ function findAdjacent(rootNode, vertices, edges){
         if( vertex !== rootNode){
           const connect = vertices.find(e => e.name = vertex)
           connect.distance = 0
+          console.log(connect)
           vert.push(connection)
         }
       }
