@@ -4,7 +4,7 @@ function bfs(rootNode, vertices, edges){
 
 function findAdjacent(rootNode, vertices, edges){
   let vert = []
-  for (edge in edges){
+  for (let edge in edges){
     if (edge.includes(rootNode)){
       for (vertice in edge){
         if(vertice !== rootNode){
