@@ -8,8 +8,8 @@ function findAdjacent(rootNode, vertices, edges){
     if (edge.includes(rootNode)){
       for (let vertex of edge){
         if( vertex !== rootNode){
-          const connection = vertices.find(e => e.name = vertex)
-          connection.distance = 0
+          const connect = vertices.find(e => e.name = vertex)
+          connect.distance = 0
           vert.push(connection)
         }
       }
