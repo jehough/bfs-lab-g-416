@@ -3,6 +3,9 @@ function bfs(rootNode, vertices, edges){
   while (queue.length !== 0){
     let firstNode = queue.shift()
     let adjvert = findAdjacent(firstNode, vertices, edges)
+    markDistanceAndPredecessor(firstNode, adjvert)
+    for (let adj of adjvert){
+    }
   }
 }
 
