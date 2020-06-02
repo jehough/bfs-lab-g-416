@@ -1,5 +1,6 @@
 function bfs(rootNode, vertices, edges){
   const queue = [rootNode]
+  const visited = []
   while (queue.length !== 0){
     let firstNode = queue.shift()
     let adjvert = findAdjacent(firstNode, vertices, edges)
@@ -7,6 +8,7 @@ function bfs(rootNode, vertices, edges){
     for (let adj of adjvert){
       queue.push(adj)
     }
+    visited.push(firstNode)
   }
 }
 
