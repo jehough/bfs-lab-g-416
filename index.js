@@ -18,5 +18,5 @@ function findAdjacent(rootNode, vertices, edges){
 }
 
 markDistanceAndPredecessor(node, adjacent){
-  
+
 }
