@@ -1,4 +1,5 @@
 function bfs(rootNode, vertices, edges){
+  rootNode.distance = 0
   const queue = [rootNode]
   const visited = []
   while (queue.length !== 0){
