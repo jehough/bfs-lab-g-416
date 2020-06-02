@@ -10,6 +10,7 @@ function bfs(rootNode, vertices, edges){
     }
     visited.push(firstNode)
   }
+  return visited
 }
 
 function findAdjacent(rootNode, vertices, edges){
