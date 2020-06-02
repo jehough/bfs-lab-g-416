@@ -2,9 +2,9 @@ function bfs(rootNode, vertices, edges){
   const queue = [rootNode]
   const visited = []
   while (queue.length !== 0){
-    console.log("how many times")
     let firstNode = queue.shift()
     let adjvert = findAdjacent(firstNode, vertices, edges)
+    console.log(adjvert)
     markDistanceAndPredecessor(firstNode, adjvert)
     for (let adj of adjvert){
       queue.push(adj)
