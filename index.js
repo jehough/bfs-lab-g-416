@@ -1,6 +1,8 @@
 function bfs(rootNode, vertices, edges){
   const queue = [rootNode]
-
+  while (queue.length !== 0){
+    
+  }
 }
 
 function findAdjacent(rootNode, vertices, edges){
