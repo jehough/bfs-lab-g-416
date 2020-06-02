@@ -3,6 +3,7 @@ function bfs(rootNode, vertices, edges){
   const visited = []
   while (queue.length !== 0){
     let firstNode = queue.shift()
+    console.log(firstNode)
     let adjvert = findAdjacent(firstNode, vertices, edges)
     console.log(adjvert)
     markDistanceAndPredecessor(firstNode, adjvert)
