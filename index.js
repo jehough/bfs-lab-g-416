@@ -17,4 +17,6 @@ function findAdjacent(rootNode, vertices, edges){
   return vert
 }
 
-markDistanceAndPredecessor()
+markDistanceAndPredecessor(node, adjacent){
+  
+}
